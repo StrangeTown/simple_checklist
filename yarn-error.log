@@ -1,0 +1,50 @@
+Arguments: 
+  /Users/yinxing/.nvm/versions/node/v10.14.1/bin/node /usr/local/Cellar/yarn/1.22.17/libexec/bin/yarn.js add @react-navigation/native
+
+PATH: 
+  /Users/yinxing/.nvm/versions/node/v10.14.1/bin:/Users/yinxing/development/flutter/bin:/Users/yinxing/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/yinxing/development/flutter/bin:/Users/yinxing/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  10.14.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/jsc-android/-/jsc-android-245459.0.0.tgz: unexpected end of file
+      at Zlib.zlibOnError [as onerror] (zlib.js:154:17)
+
+npm manifest: 
+  {
+    "name": "simple_todo",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~43.0.2",
+      "expo-status-bar": "~1.1.0",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-native": "0.64.3",
+      "react-native-web": "0.17.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
